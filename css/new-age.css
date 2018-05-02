@@ -42,7 +42,7 @@ h6 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 22px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
@@ -283,8 +283,8 @@ section.features .feature-item i {
 
 section.cta {
   position: relative;
-  padding: 250px 0;
-  background-image: url("../img/bg-cta.jpg");
+  padding: 50px 0;
+  background-color: #a3cd39;
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -303,6 +303,12 @@ section.cta .cta-content h2 {
   margin-top: 0;
   margin-bottom: 25px;
   color: white;
+  text-align: center!important;
+  padding-left: 100px;
+}
+
+section.cta .cta-content .cookie-cont {
+  width: 100%;
 }
 
 @media (min-width: 768px) {
